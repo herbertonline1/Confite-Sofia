@@ -10,7 +10,7 @@ function setValores (e){
 setInterval(function(){
     var dataAtual = new Date().getTime();
 
-    var segundosTotal = (dataFutura - dataAtual)/1000;
+    var segundosTotal = (dataAtual - dataFutura)/1000;
 
     dias = parseInt(segundosTotal/86400);
     segundosTotal = segundosTotal%86400;
